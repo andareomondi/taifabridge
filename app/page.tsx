@@ -60,24 +60,20 @@ export default function Home() {
               {
                 title: "Innovation",
                 desc: "Cutting-edge solutions built with modern technologies and forward-thinking approaches.",
-                icon: "LightningBoltIcon",
               },
               {
                 title: "People First",
                 desc: "Creating software that puts user experience at the center of everything we build.",
-                icnon: "users",
               },
               {
                 title: "Growth",
                 desc: "Building our foundation and scaling with purpose for long-term success and impact.",
-                icon: "chart-line",
               },
             ].map((item, idx) => (
               <div
                 key={idx}
                 className="group p-6 sm:p-8 bg-red-900 bg-opacity-60 rounded-2xl border border-yellow-500 border-opacity-40 hover:border-opacity-100 hover:bg-opacity-80 transition backdrop-blur-sm"
               >
-                <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-amber-400 rounded-lg mb-4 group-hover:scale-110 transition"></div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">
                   {item.title}
                 </h3>
