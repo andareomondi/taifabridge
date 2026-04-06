@@ -41,7 +41,7 @@ export default function About() {
             </div>
             <div className="p-6 sm:p-8 bg-red-900 bg-opacity-60 rounded-2xl border border-yellow-500 border-opacity-40 backdrop-blur-sm">
               <Image
-                src="/mission.jpg"
+                src="/logo.jpeg"
                 alt="Mission Image"
                 width={600}
                 height={400}
@@ -143,21 +143,6 @@ export default function About() {
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Contact CTA */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-r from-red-950 to-orange-900 border-t border-yellow-600">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6">
-            <span className="text-white">Let&apos;s</span>
-            <span className="block bg-gradient-to-r from-yellow-300 to-amber-400 bg-clip-text text-transparent">
-              Build Together
-            </span>
-          </h2>
-          <p className="text-sm sm:text-base md:text-lg text-gray-300">
-            Interested in working with us? We&apos;d love to hear from you.
-          </p>
         </div>
       </section>
     </div>

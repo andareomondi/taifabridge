@@ -117,27 +117,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-r from-red-950 to-orange-900 border-t border-yellow-600">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black mb-4 sm:mb-6">
-            <span className="text-white">Ready to Build</span>
-            <span className="block bg-gradient-to-r from-yellow-300 to-amber-400 bg-clip-text text-transparent mt-1 sm:mt-2">
-              Something Amazing?
-            </span>
-          </h2>
-          <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-6 sm:mb-8">
-            Let&apos;s explore how we can help bring your ideas to life.
-          </p>
-          <Link
-            href="/services"
-            className="inline-block px-6 sm:px-10 py-3 sm:py-4 bg-gradient-to-r from-yellow-400 to-amber-400 text-red-950 font-bold rounded-full hover:from-yellow-300 hover:to-amber-300 active:scale-95 transition transform hover:scale-105 text-xs sm:text-base shadow-lg"
-          >
-            Get Started
-          </Link>
-        </div>
-      </section>
     </div>
   );
 }
