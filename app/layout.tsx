@@ -35,12 +35,6 @@ export default function RootLayout({
         <NavbarClient />
 
         <main>{children}</main>
-
-        <footer className="bg-red-950 border-t border-yellow-600 mt-16 py-8 px-4">
-          <div className="max-w-7xl mx-auto text-center text-gray-400 text-sm sm:text-base">
-            <p>© 2026 Taifa Bridge Group. Building bridges in software.</p>
-          </div>
-        </footer>
       </body>
     </html>
   );
